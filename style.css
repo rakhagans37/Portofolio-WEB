@@ -1,0 +1,303 @@
+*{
+    margin:0;
+}
+body{
+    background-color: #E5E5E5;
+}
+
+.navbar{
+    width: 100%;
+    height: 56px;
+    overflow: hidden;
+}
+.navbar .nama{
+    display: inline-block;
+    font-family: 'Comfortaa';
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 14px;
+    padding-left: 120px;
+}
+
+.navbar .navbar-nav{
+    display: flex;
+    position: absolute;
+    top: 14px;
+    right: 120px;
+    gap: 48px;
+}
+.navbar .navbar-nav a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(96, 96, 96);
+}
+.navbar .navbar-nav a:hover{
+    color: black;
+}
+.image{
+    position: absolute;
+    right: 0px;
+}
+.image img{
+    width: 720px;
+    height: 629px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: 120px;
+    top: 110px;
+    width: 486px;
+    gap: 12px;
+}
+.intro .job-id h1{
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 18px;
+    color: #FDC435;
+}
+.intro .desc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+}
+.intro .desc h2{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 55px;
+}
+.intro .desc p{
+    font-family: 'Nunito';
+    font-size: 24px;
+    font-weight: 400;
+    color: #828282;
+    line-height: 150%;
+}
+.intro .desc .navbar-desc{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 244px;
+    height: 43px;
+}
+.intro .desc .navbar-desc .project{
+    width: 115px;
+    height: 43px;
+    border-radius: 8px;
+    background-color: #FDC435;
+}
+.intro .desc .navbar-desc .project a{
+    padding-left: 24px;
+    line-height: 43px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.intro .desc .navbar-desc .linkedin{
+    width: 115px;
+    height: 43px;
+    border-radius: 8px;
+    border: 2px solid;
+    box-sizing: border-box;
+}
+.intro .desc .navbar-desc .linkedin a{
+    padding-left: 22px;
+    line-height: 41px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.projects{
+    position: absolute;
+    top: 773px;
+    margin-left: 222px;
+    margin-right: 226px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.projects .projects-headline{
+    width: 181px;
+    height: 88px;
+}
+.projects .projects-headline h2{
+    text-align: center;
+    font-family: 'Plaifair Display';
+    font-weight: 700;
+    font-size: 48px;
+}
+.projects .rectangle{
+    width: 100px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #FDC435;
+    margin-left: 40.5px;
+    margin-right: 40.5px;
+    margin-top: 4px;
+    transition: 1s;
+}
+.project .rectangle:hover{
+    transform: scaleX(2);
+}
+.projects .card{
+    width: 992px;
+    height: 524px;
+    border-radius: 24px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    filter: drop-shadow(0px 6px 64px rgba(112, 144, 176, 0.1));
+    background-color: white;
+}
+.projects .card .image{
+    width: 50%;
+}
+.projects .card .description{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    top: 146.5px;
+    left: 50.44px;
+    width: 406.68px;
+}
+.projects .card .description h3{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+.projects .card .description p{
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.projects .card .description a{
+    width: 150px;
+    height: 43px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-radius: 24px;
+    border:1px solid;
+    text-align: center;
+    line-height: 43px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+.projects .card .description a:hover{
+    background-color: #FDC435;
+}
+
+.projects .card-genap{
+    width: 992px;
+    height: 524px;
+    border-radius: 24px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    -webkit-filter: drop-shadow(0px 6px 64px rgba(112, 144, 176, 0.1));
+    filter: drop-shadow(0px 6px 64px rgba(112, 144, 176, 0.1));
+    background-color: white;
+}
+.projects .card-genap .image{
+    width: 50%;
+    left: 0px;
+}
+.projects .card-genap .image img{
+    width: 100%;
+}
+.projects .card-genap .description{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    top: 146.5px;
+    right: 38.88px;
+    width: 406.68px;
+}
+.projects .card-genap .description h3{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+.projects .card-genap .description p{
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.projects .card-genap .description a{
+    width: 150px;
+    height: 43px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-radius: 24px;
+    border:1px solid;
+    text-align: center;
+    line-height: 43px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+.projects .card-genap .description a:hover{
+    background-color: #FDC435;
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: absolute;
+    top: 2850px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 624px;
+}
+#footer .navbar-foot{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}#footer .navbar-foot a{
+    display: inline-block;
+} 
+#footer .navbar-foot img{
+    width: 48px;
+    height: 48px;
+
+}
+#footer p{
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+}
+#dummy{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 3000px;
+}
